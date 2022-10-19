@@ -1,0 +1,80 @@
+.about-container  {
+    /* border: 2px solid red; */
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 3rem auto;
+    width: 70vw;
+}
+
+.about_title {
+    border: 4px solid blue;
+    border-radius: 100px;
+    margin: 5rem auto 3rem auto;
+    padding: 3rem ;
+    position: sticky;
+    /* font-family:cursive; */
+    /* text-align: center; */
+}
+
+.game_about_container {
+    border: 2px solid orange;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+.game_about_container img {
+    border: 2px solid green;
+    border-radius: 25px;
+    height: 200px;
+    margin: auto 1rem auto auto;
+    /* margin-bottom: auto;
+    margin-right: 1rem;
+    margin-top: auto; */
+    padding: 0.5rem;
+    width: 300px;
+}
+
+.dev1{    /*Derek*/     
+    border: 2px solid red;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.dev1 img {   /*Derek*/
+    border: 2px solid green;
+    border-radius: 25px;
+    height: 200px;
+    margin:auto auto auto 0.5rem;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.dev2{    /*DeVonte*/     
+    border: 2px solid orange;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.dev2 img {   /*DeVonte*/
+    border: 2px solid green;
+    border-radius: 25px;
+    height: 200px;
+    margin:auto 0.5rem auto auto;
+    width: 200px;
+}
+
+.dev3{    /*Chris*/     
+    border: 2px solid red;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.dev3 img {   /*Chris*/
+    border: 2px solid green;
+    border-radius: 25px;
+    height: 200px;
+    margin:auto 0.5rem auto auto;
+    width: 225px;
+    padding: 0.5rem;
+}

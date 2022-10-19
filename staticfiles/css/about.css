@@ -1,0 +1,8 @@
+.about-container  {
+    border: 2px solid red;
+    display: flex;
+}
+
+.about_title {
+    margin-top: 5rem;
+}

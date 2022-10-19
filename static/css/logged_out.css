@@ -1,0 +1,28 @@
+.logout-container {
+    border: 2px solid red;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    width: 40vw;
+}
+
+.logout-head {
+    align-items: center;
+    margin-top: 6rem;
+    /* border: 2px solid green; */
+}
+
+.logout-head h1 {
+    text-align: center;
+}
+
+.logout{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}

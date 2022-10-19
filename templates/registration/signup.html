@@ -6,11 +6,11 @@
     <div class = 'signup-header'>
         <h1>Please Register Below</h1>
     </div>
-    <div class="mb-3 card">
-        <form method="POST">
+    <div class=signup_container>
+        <form method="POST">    
             {% csrf_token %}
             {{ form.as_p }}
-            <input type="submit" value = 'signup' class= 'btn btn-primary'>
+            <div class="submit_btn"><button type="submit" class= 'btn btn-primary btn-lg'>SignUp</button></div>
         </form>
     </div>
 

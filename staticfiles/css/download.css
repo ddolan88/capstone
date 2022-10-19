@@ -1,0 +1,20 @@
+.download-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    background-color: aqua;
+}
+
+.download-container > h1 {
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.download-container > p {
+    display: flexbox;
+    background-color: orange;
+    color: dodgerblue;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 10px 15px 10px 15px;
+}

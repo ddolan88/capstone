@@ -1,3 +1,6 @@
+from django.urls import reverse_lazy
+from .models import Post
+
 from django.views.generic import (
     TemplateView,
     DetailView,
@@ -14,12 +17,8 @@ from django.contrib.auth.mixins import (
     UserPassesTestMixin
 )
 
-from django.urls import reverse_lazy
-from .models import Post
-
 # Create your views here.
-
-class CommunityPageView(TemplateView):
+class CommunityPageView(TemplateView):  #this will be the list view for the community
     template_name = 'pages/community.html'
     model = Post
 
@@ -27,7 +26,7 @@ class PostDetailView(DetailView):
     template_name = 'posts/detail.html'
     model = Post
 
-class PostCreateView(LoginRequiredMixin ,CreateView):
+class PostCreateView(LoginRequiredMixin, CreateView):
     template_name = 'posts/new.html'
     model = Post
     fields= ['title', 'body']
