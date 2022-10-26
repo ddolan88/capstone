@@ -3,9 +3,11 @@
 {% block title %} Community Page {% endblock title %}
 
 {% block content %}
-    <h1>Player Reviews</h1>
+    <div class="community-head">
+        <h1>Player Reviews</h1>
+    </div>
 
-    {% for post in community_posts %}
+    {% for post in object_list %}
         <div class="card" style= 'width: 18rem;'>
             <div class= 'card-body'>
                 <h5 class= 'card-title'>{{ post.title }}</h5>
