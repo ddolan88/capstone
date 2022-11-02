@@ -8,7 +8,7 @@
     margin-right: auto;
     margin-top: 9rem;
     text-align: center;
-    width: 40vw;
+    max-width: 25vw;
 }
 
 /* .signup-header h1 {
@@ -24,7 +24,7 @@
     height: 75vh;
     margin: 4rem auto 4rem auto;
     padding: 2rem;
-    width: 40vw;
+    max-width: 25vw;
     /* display: flex; */
 }
 
@@ -37,7 +37,7 @@
 
 .submit_btn {
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     margin-top: 4rem;
@@ -47,3 +47,7 @@
     width: 10rem;
     /* box-shadow: 10px 10px 10px darkgray; */
 }
+
+/* input {
+
+} */

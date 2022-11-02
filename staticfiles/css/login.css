@@ -11,14 +11,6 @@
     max-width: 20vw;
 }
 
-.login-header h1{
-    display: block;
-    font-size: 3em;
-    margin: 0.6em 0;
-    font-weight: bold;
-}
-
-
 .login-container {
     align-content: center;
     align-items: center;

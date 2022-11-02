@@ -3,19 +3,22 @@
 {% block title %} Community Page {% endblock title %}
 
 {% block content %}
-    <div class="community-head">
-        <h1>Player Reviews</h1>
-    </div>
-
-    {% for post in object_list %}
-        <div class="card" style= 'width: 18rem;'>
-            <div class= 'card-body'>
-                <h5 class= 'card-title'>{{ post.title }}</h5>
-                <p class='card-text'>{{ post.body|truncatechars:30 }}</p>
-                <a href="{% url 'post_detail' post.id %}" class="card-link">Continue Reading....</a>
-            </div>
+    <div class="community_post_container">
+        <div class="community_head">
+            <h1>Player Reviews</h1>
         </div>
-    </br>
-    {% endfor %}
+            <div class="card_list">
+            {% for post in object_list %}
+                <div class="card" style= 'width: 18rem;'>
+                    <div class= 'card-body'>
+                        <h5 class= 'card-title'>{{ post.title }}</h5>
+                        <p class='card-text'>{{ post.body|truncatechars:30 }}</p>
+                        <a href="{% url 'post_detail' post.id %}" class="card-link">Continue Reading....</a>
+                    </div>
+                </div>
+            </br>
+            {% endfor %}
+        </div>
+    </div>
 
 {% endblock content %}
